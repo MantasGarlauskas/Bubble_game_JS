@@ -88,3 +88,6 @@ reset.addEventListener('click', (e) => {
 section.addEventListener('click', (e) => {
     e.stopImmediatePropagation();
 })
+
+
+//(shuffle) funkcija, kad maisytu kamuoliukus
