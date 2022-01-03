@@ -1,0 +1,88 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: lightgray;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 100;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    transition: 1s all;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+
+.rez {
+    font-size: 100px;
+    left: 100%;
+    color: white;
+}
+
+.rez2 {
+    font-size: 100px;
+    left: 100%;
+    margin-right: 20px;
+    color: white;
+}
+
+.rez::before {
+    content: 'Missed:';
+    font-size: 20px;
+    color: red;
+    margin-left: 10px;
+}
+
+.rez2::after {
+    content: ':Catched';
+    font-size: 20px;
+    color: red;
+}
+
+.left {
+    font-size: 100px;
+    left: 100%;
+    margin-right: 20px;
+    color: white;
+}
+
+.left::before {
+    content: 'Left:';
+    font-size: 20px;
+    color: red;
+    margin-left: 10px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border-color: white;
+    height: 50px;
+    width: 100px;
+    border-radius: 10%;
+    font-size: 20px;
+    cursor: grab;
+}
+
+.timmer {
+    color: white;
+}
